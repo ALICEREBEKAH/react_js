@@ -1,0 +1,16 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
+function App() {
+  return(
+    <div>
+      <h1>color picker</h1>
+      <button onClick={()=>ReadableStreamDefaultController("red")}>RED</button>
+      <button onClick={()=>ReadableStreamDefaultController("green")}>green</button>
+      <button onClick={()=>ReadableStreamDefaultController("blue")}>blue</button>
+      <div classname='bgchange'></div>
+    </div>
+  )
+}
